@@ -1,0 +1,37 @@
+[
+  {
+    "id": "cat_001",
+    "name": "Ceramic",
+    "slug": "ceramic",
+    "description": "Durable and versatile ceramic tiles for walls, floors, kitchens, and bathrooms.",
+    "image": "/images/categories/ceramic.jpg"
+  },
+  {
+    "id": "cat_002",
+    "name": "Porcelain",
+    "slug": "porcelain",
+    "description": "Premium porcelain tiles with excellent durability and a modern finish.",
+    "image": "/images/categories/porcelain.jpg"
+  },
+  {
+    "id": "cat_003",
+    "name": "Marble",
+    "slug": "marble",
+    "description": "Elegant marble tiles featuring luxurious patterns and natural-inspired veining.",
+    "image": "/images/categories/marble.jpg"
+  },
+  {
+    "id": "cat_004",
+    "name": "Mosaic",
+    "slug": "mosaic",
+    "description": "Decorative mosaic tiles perfect for accent walls, bathrooms, kitchens, and creative designs.",
+    "image": "/images/categories/mosaic.jpg"
+  },
+  {
+    "id": "cat_005",
+    "name": "Stone",
+    "slug": "stone",
+    "description": "Natural and stone-look tiles that bring texture and timeless character to any space.",
+    "image": "/images/categories/stone.jpg"
+  }
+]
