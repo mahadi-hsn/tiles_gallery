@@ -1,10 +1,11 @@
-import { Button } from "@heroui/react";
-import Image from "next/image";
+import HomePage from "@/Components/HomePage/HomePage";
+import Footer from "@/Components/Shared/Footer";
 
 export default function Home() {
   return (
-    <div>
-      
-    </div>
+    <>
+      <HomePage />
+      <Footer />
+    </>
   );
 }
