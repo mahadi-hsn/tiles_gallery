@@ -32,7 +32,7 @@ const NewArrivals = async () => {
               <Image
                 className="h-77.5 rounded-4xl mb-3"
                 src={tile.image}
-                alt={tile.name}
+                alt={tile.title}
                 width={500}
                 height={300}
                 ></Image>
