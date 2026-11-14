@@ -5,7 +5,6 @@ import React from "react";
 
 const Navlink = ({ item }) => {
   const pathName = usePathname();
-  console.log(pathName);
   return (
     <div>
       <li

@@ -5,20 +5,27 @@
     "name": "Ceramic",
     "slug": "ceramic",
     "description": "Explore our beautiful collection of ceramic tiles, perfect for stylish walls and floors.",
-    "image": "/images/categories/ceramic.jpg"
+    "image": "https://images.pexels.com/photos/32021732/pexels-photo-32021732.jpeg"
   },
   {
     "id": "cat_002",
     "name": "Porcelain",
     "slug": "porcelain",
     "description": "Discover durable and elegant porcelain tiles designed for modern living spaces.",
-    "image": "/images/categories/porcelain.jpg"
+    "image": "https://images.pexels.com/photos/10931569/pexels-photo-10931569.jpeg"
   },
   {
     "id": "cat_003",
     "name": "Marble",
     "slug": "marble",
     "description": "Experience timeless luxury with our premium natural marble tile collection.",
-    "image": "/images/categories/marble.jpg"
-  }
+    "image": "https://images.pexels.com/photos/4604566/pexels-photo-4604566.jpeg"
+  }, 
+  {
+  "id": "cat_004",
+  "name": "Granite",
+  "slug": "granite",
+  "description": "Explore our premium granite tile collection, combining natural beauty, exceptional durability, and timeless elegance.",
+  "image": "https://images.pexels.com/photos/220152/pexels-photo-220152.jpeg"
+}
 ]

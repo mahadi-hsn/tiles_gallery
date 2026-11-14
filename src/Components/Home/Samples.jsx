@@ -7,7 +7,7 @@ import { TbRulerMeasure } from "react-icons/tb";
 
 const Samples = () => {
   return (
-    <div className="bg-[#EADBC4] w-full my-18 py-8">
+    <div className="bg-[#EADBC4] w-screen my-18 py-8">
       <Marquee speed={70}>
         <div className="flex gap-15">
           <div className="flex gap-4">
