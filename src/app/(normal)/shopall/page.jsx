@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import bannerImg1 from "../../Assets/banner-image1.png";
+import bannerImg1 from "../../../Assets/banner-image1.png";
 import { FaAngleRight, FaArrowRightLong } from "react-icons/fa6";
 
 const ShopAllPage = async () => {

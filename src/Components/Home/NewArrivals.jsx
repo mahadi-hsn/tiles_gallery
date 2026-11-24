@@ -25,24 +25,33 @@ const NewArrivals = async () => {
         </div>
       </div>
       <div className="grid grid-cols-4 gap-5 mt-15">
-        {tiles.slice(0 , 4).map((tile, ind) => (
+        {tiles.slice(0, 4).map((tile, ind) => (
           <div key={ind}>
-            <div className="border p-3 rounded-4xl shadow">
-
-              <Image
-                className="h-77.5 rounded-4xl mb-3"
-                src={tile.image}
-                alt={tile.title}
-                width={500}
-                height={300}
+            <Link href={`/shopall/${tile.id}`}>
+              <div className="border p-3 rounded-4xl shadow">
+                <Image
+                  className="h-77.5 rounded-4xl mb-3"
+                  src={tile.image}
+                  alt={tile.title}
+                  width={500}
+                  height={300}
                 ></Image>
-              <div className="">
-                <p className="text-sm ">{tile.material} · {tile.dimensions}</p>
-                <h4 className="font-heading text-xl">{tile.title}</h4>
-                    <p>$ <span className="font-heading text-xl text-[#B5532F]">{tile.price}</span> / sq ft</p>
-              </div>
+                <div className="">
+                  <p className="text-sm ">
+                    {tile.material} · {tile.dimensions}
+                  </p>
+                  <h4 className="font-heading text-xl">{tile.title}</h4>
+                  <p>
+                    ${" "}
+                    <span className="font-heading text-xl text-[#B5532F]">
+                      {tile.price}
+                    </span>{" "}
+                    / sq ft
+                  </p>
                 </div>
-            </div>
+              </div>
+            </Link>
+          </div>
         ))}
       </div>
     </div>

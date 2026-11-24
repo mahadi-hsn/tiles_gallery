@@ -2,8 +2,9 @@ import React from 'react';
 
 const SignupPage = () => {
     return (
-        <div>
-            Sign up
+        <div className='bg-[#EADBC4] '>
+            <div></div>
+            <div></div>
         </div>
     );
 };
